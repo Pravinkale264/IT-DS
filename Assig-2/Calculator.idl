@@ -1,0 +1,8 @@
+module CalculatorApp{
+	 interface Calculator{
+		float add(in float num1, in float num2);
+		float subtract(in float num1, in float num2);
+		float multiplication(in float num1,in float num2);
+		float division(in float num1, in float num2);
+	};
+};
